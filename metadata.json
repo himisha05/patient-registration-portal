@@ -1,0 +1,6 @@
+{
+  "name": "Patient Registration portal",
+  "description": "Patient registration app that captures demographic details and generates a UHID.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

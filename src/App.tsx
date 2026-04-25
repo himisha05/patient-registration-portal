@@ -160,15 +160,6 @@ export default function App() {
 
       setRegisteredName(data.patient.name);
       setSuccessUhid(data.patient.uhid);
-      setName('');
-      setMobile('');
-      setDateOfBirth('');
-      setGender('');
-      setSource('');
-      setEmail('');
-      setReferringDoctor('');
-      setPincode('');
-      setLocation('');
     } catch (err: unknown) {
       setError(err instanceof Error ? err.message : 'Failed to register patient');
     } finally {

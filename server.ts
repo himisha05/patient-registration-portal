@@ -5,8 +5,7 @@ import path from 'path';
 import { PrismaClient } from '@prisma/client';
 
 const app = express();
-const PORT = 3000;
-
+const PORT =process.env.PORT || 3000; 
 const prisma = new PrismaClient();
 
 const GENDERS = ['Male', 'Female', 'Other'] as const;
